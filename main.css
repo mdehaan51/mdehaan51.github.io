@@ -50,7 +50,6 @@ body{
 	position: absolute;
 	top: 50%;
     left: 50%;
-    
     z-index: 6;
     opacity: 0;
     /*transition: transform .3s;*/
@@ -70,7 +69,7 @@ body{
 	width: 60%;
 	margin-top: 50%;
 	margin: 3%  auto;
-	background-color: rgba(0,0,0, 0.6);
+	/*background-color: rgba(0,0,0, 0.6);*/
 	min-width: 480px;
 	max-width: 900px;
 	z-index: 2;
@@ -87,8 +86,8 @@ body{
 	width: 60%;
 	height: 50vh;
 	margin: auto;
-	border: 1px solid rgba(65, 255, 0, 0.5);
-	background-color: rgba(0,0,0, 0.9);
+	/*border: 1px solid rgba(65, 255, 0, 0.5);*/
+	/*background-color: rgba(0,0,0, 0.9);*/
 	z-index:2;
 	
 
@@ -107,14 +106,12 @@ body{
 	
 }
 .row{
-	display: flex;
+	display: inline-flex;
 	justify-content: space-between;
 	align-items:center;
 	padding: 20px;
 	height: 50%;
 }
-
-
 
 .avatarimage{
 	position: relative;
@@ -141,19 +138,73 @@ body{
 	height: 120%;
 	cursor: pointer;
 	outline: none;
-}
-#portfolio{
 
+
+/*Container for after Avatar Select*/	
+}
+
+#portfolio{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 10%;
+	left: 10%;
+	background-color: blue;
+	opacity: 0;
+	z-index: 5;
 }
 #about{
-	
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 10%;
+	right: 10%;
+	background-color: red;
+	opacity: 0;
+	z-index: 5;
+
 }
 #contact{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	bottom: 10%;
+	left: 10%;
+	background-color: yellow;
+	opacity: 0;
+	z-index: 5;
 
 }
 #resume{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	bottom: 10%;
+	right: 10%;
+	background-color: green;
+	opacity: 0;
+	z-index: 5;
 
 
+}
+.backbutton{
+	position: absolute;
+	top: 6%;
+	left: 6%;
+	width: 10%;
+	height: 3%;
+	font-size: 2vh;
+	border-radius: 15px;
+	background: linear-gradient(to bottom right, black, darkgrey);
+	box-shadow: 1px 1px 3px 1px darkgrey;
+	color: rgba(65, 255, 0);
+	z-index: 10;
+}
+
+.backbutton:hover{
+	height: 3.5%;
+	cursor: pointer;
+	outline: none;
 }
 
 @media screen and (max-width: 650px){

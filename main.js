@@ -1,9 +1,11 @@
-const avatarButtonsList = document.getElementsByClassName("avatarbutton");
+/*const avatarButtonsList = document.getElementsByClassName("avatarbutton");
 const mainContainer = document.getElementById("maincontainer");
 const avatarImages = document.getElementsByClassName("avatarimage");
 const playerAvatarImg = document.getElementById("playerAvatar");
-const selectedAvatar = document.getElementById("selectedAvatar")
-console.log(avatarImages)
+const selectedAvatar = document.getElementById("selectedAvatar");
+let pageCounter = 0*/
+
+
 
 function addClickFeature(arr,task){
 	for(let i = 0; i < arr.length; i++){
@@ -18,6 +20,9 @@ function mainActivate(){
 	mainContainer.style.animation = "fadeout 4s"
 	for(let i = 0; i < 6; i++){
 		avatarButtonsList[i].disabled = true
+	};
+	for(let i = 0; i < 4; i++){
+		selectionItem[i].style.animation = "fadein 3s both"
 	};
 
 	selectedAvatar.style.animation = "fadein 3s both";
@@ -49,7 +54,7 @@ function mainActivate(){
 
 }
 
-function slideToCenter(element){
+/*function slideToCenter(element){
 	var pageCenterW = window.innerWidth/2;
 	var pageCenterH = window.innerHeight/2;
 	var posW = element.getBoundingClientRect().x;
@@ -80,7 +85,7 @@ function slideToCenter(element){
 			console.log("o no!")
 			break;
 		}*/
-}
+
 
 
 
