@@ -21,10 +21,10 @@ function mainActivate(){
 	for(let i = 0; i < 6; i++){
 		avatarButtonsList[i].disabled = true
 	};
-	for(let i = 0; i < 4; i++){
+	/*for(let i = 0; i < 4; i++){
 		selectionItem[i].style.animation = "fadein 3s both"
-	};
-
+	};*/
+	document.getElementById("itemsContainer").style.animation = "fadein 3s both"
 	selectedAvatar.style.animation = "fadein 3s both";
 
 	let avatarCenter = [selectedAvatar.offsetLeft + selectedAvatar.offsetWidth/2, selectedAvatar.offsetTop + selectedAvatar.offsetHeight/2];

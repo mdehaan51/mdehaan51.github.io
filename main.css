@@ -38,13 +38,19 @@ body{
 	100%{pointer-events: none;}
 }
 @keyframes sidetoside{
-	0%{width: 7%;} /*left: -0.5%;}*/
-	50%{width: 8%;}
-	100%{width: 7%;} /*left: 0%;}*/
+	0%{margin-left: -3%;} /*left: -0.5%;}*/
+	50%{margin-left: 3%;}
+	100%{margin-left: -3%;} /*left: 0%;}*/
 	/*50%{width: 8%; left: 0.5%;}
 	75%{width: 9%; left: 0%;}
 	100%{width: 8%; left: -0.5%;}*/
 }
+
+@-webkit-keyframes spin {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(-360deg);}
+}
+
 
 #selectedAvatar{
 	position: absolute;
@@ -55,12 +61,18 @@ body{
     /*transition: transform .3s;*/
 }
 
+#container-fluid{
+	font-family: Courier;
+	color: rgba(65, 255, 0);
+
+}
 #maincontainer{
 	position: relative;
 	opacity: 0;
 	animation: fadein 7s;
 	animation-fill-mode: both;
 	z-index: 2;
+	
 
 }
 #title{
@@ -69,25 +81,21 @@ body{
 	width: 60%;
 	margin-top: 50%;
 	margin: 3%  auto;
-	/*background-color: rgba(0,0,0, 0.6);*/
+
 	min-width: 480px;
 	max-width: 900px;
 	z-index: 2;
 }
 #charselectbox{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	position: relative;
+
 	text-align: center;
 	min-width: 480px;
 	max-width: 900px;
-	min-height: 400px ;*/
+	min-height: 400px ;
 	width: 60%;
 	height: 50vh;
 	margin: auto;
-	/*border: 1px solid rgba(65, 255, 0, 0.5);*/
-	/*background-color: rgba(0,0,0, 0.9);*/
+
 	z-index:2;
 	
 
@@ -96,51 +104,60 @@ body{
 
 }
 #avatarcontainer{
-	position: absolute;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
 	width: 100%;
 	height: 70%;
-	margin: 15% auto;
+	margin: 10% auto;*/
 	
-}
-.row{
-	display: inline-flex;
-	justify-content: space-between;
-	align-items:center;
-	padding: 20px;
-	height: 50%;
 }
 
-.avatarimage{
-	position: relative;
-	display: block;
-	top: 35%;
-	margin-left: 5%;
-	margin-right: 5%;
-	animation: sidetoside 6s infinite;
-	
+.row{	
+	align-items: center;
+	height: 50%;
 }
+.col-sm-4{
+	height: 100%;
+}
+
+
+.avatarimage{
+
+	min-width: 100%;
+	height: auto;
+	margin: 10% auto;
+}
+.avatarimage img{
+	animation: sidetoside 6s infinite;
+	height: 64px;
+	width: 64px;
+}
+
 .avatarbutton{
-	display: block;
+	margin-top: 0px;
 	border-radius: 15px;
 	background: linear-gradient(to bottom right, black, darkgrey);
 	box-shadow: 1px 1px 3px 1px darkgrey;
 	color: rgba(65, 255, 0);
-	width: 18%;
-	height: 110%;
+	width: 60%;
+	height: 30%;
 	outline: none;
-	align-items: center;
 
 }
 .avatarbutton:hover{
-	height: 120%;
+	height: 35%;
 	cursor: pointer;
 	outline: none;
 
 
 /*Container for after Avatar Select*/	
+}
+#itemsContainer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0px;
+	opacity: 0;
+
 }
 
 #portfolio{
@@ -150,9 +167,14 @@ body{
 	top: 10%;
 	left: 10%;
 	background-color: blue;
-	opacity: 0;
 	z-index: 5;
+	background: radial-gradient(transparent,black), url("./images/blackholebackground-trim.png");
+	background-size: cover;
+	background-position: center;
+
+	-webkit-animation: spin 20s infinite linear;
 }
+
 #about{
 	position: absolute;
 	height: 100px;
@@ -160,7 +182,6 @@ body{
 	top: 10%;
 	right: 10%;
 	background-color: red;
-	opacity: 0;
 	z-index: 5;
 
 }
@@ -171,7 +192,6 @@ body{
 	bottom: 10%;
 	left: 10%;
 	background-color: yellow;
-	opacity: 0;
 	z-index: 5;
 
 }
@@ -182,7 +202,6 @@ body{
 	bottom: 10%;
 	right: 10%;
 	background-color: green;
-	opacity: 0;
 	z-index: 5;
 
 

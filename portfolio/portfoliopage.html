@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>DeHaan Development Home Page</title>
-	<link rel = "stylesheet" type="text/css" href = "portfoliostyle.css">
-	<link rel = "stylesheet" type="text/css" href = "../main.css">
-</head>
-<body>
-<div class = "blackhole"></div>
-<div id = "portfoliocontainer">
-	<div id = "portfoliotitle">
-		<h1> Samples of my Projects</h1>
-	</div>
-	<div class = "row">
-		<a href ="./twitch_leaderboard/index.html">
-			<div  class = "description"><h1>Twitch Leaderboard</h1><p>This is a twitch leaderboard displaying the top 10 twitch streamers currently live right now.It utilized the Twitch API to life pull the name, game being played, and number of streamers currently watching.It also provides a link to their steam. This was part of a project on API's done for FreeCodeCamp.com</p></div>
-			<img class = "portfolioimage"  src = "./twitch_leaderboard/screenshot.png">
-		</a>
-		<a href ="./skills-assessment/index.html"><img class = "portfolioimage" src = "./skills-assessment/skill-assessment.png"></a>
-		<a href ="./pomodoro-clock/index.html"><img class = "portfolioimage" src = "./pomodoro-clock/pomodoro-clock.png"></a>
-	</div>
-	<div class = "row">
-		<a href ="./twitch_leaderboard/index.html"><img class = "portfolioimage" style = "max-width: 100%" src = "./twitch_leaderboard/screenshot.png"></a>
-		<a href ="./twitch_leaderboard/index.html"><img class = "portfolioimage" style = "max-width: 100%" src = "./twitch_leaderboard/screenshot.png"></a>
-		<a href ="./twitch_leaderboard/index.html"><img class = "portfolioimage" style = "max-width: 100%" src = "./twitch_leaderboard/screenshot.png"></a>
-	</div>
-</div>
-<a class = "backbutton" href="../index.html"><- Go Back</a>
-
-
-
-
-<script type = "text/javascript" src="portfolio.js"></script>
-<script type = "text/javascript" src="../index.js"></script>
-
-</body>
+	<head>
+		<title>DeHaan Development Home Page</title>
+		<link rel = "stylesheet" type="text/css" href = "portfoliostyle.css">
+		<link rel = "stylesheet" type="text/css" href = "../main.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class = "blackness"></div>
+		<div class = "blackhole"></div>
+		<div id = "portfoliocontainer">
+			<div id = "portfoliotitle">
+				<h1> Samples of my Projects</h1>
+			</div>
+			<div class = "container-fluid">
+				<div class = "row">
+					<div class = col-sm-4>
+						<a href ="./twitch_leaderboard/index.html">
+							<div  class = "description"><h1>Twitch Leaderboard</h1><p>This is a twitch leaderboard displaying the top 10 twitch streamers currently live right now.It utilized the Twitch API to life pull the name, game being played, and number of streamers currently watching.It also provides a link to their steam. This was part of a project on API's done for FreeCodeCamp.com</p></div>
+							<img class = "portfolioimage"  src = "./twitch_leaderboard/screenshot.png">
+						</a>
+					</div>
+					<div class = col-sm-4>
+						<a href ="./skills-assessment/index.html"><img class = "portfolioimage" src = "./skills-assessment/skill-assessment.png"></a>
+					</div>
+					<div class = col-sm-4>
+						<a href ="./pomodoro-clock/index.html"><img class = "portfolioimage" src = "./pomodoro-clock/pomodoro-clock.png"></a>
+					</div>
+					
+				</div>
+				<div class = "row">
+					<div class = col-sm-4>
+						<a href ="./twitch_leaderboard/index.html"><img class = "portfolioimage" style = "max-width: 100%" src = "./twitch_leaderboard/screenshot.png"></a>
+					</div>
+					<div class = col-sm-4>
+						<a href ="./twitch_leaderboard/index.html"><img class = "portfolioimage" style = "max-width: 100%" src = "./twitch_leaderboard/screenshot.png"></a>
+					</div>
+					<div class = col-sm-4>
+						<a href ="./twitch_leaderboard/index.html"><img class = "portfolioimage" style = "max-width: 100%" src = "./twitch_leaderboard/screenshot.png"></a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<a class = "backbutton" href="../index.html"><- Go Back</a>
+		<script type = "text/javascript" src="portfolio.js"></script>
+		<script type = "text/javascript" src="../index.js"></script>
+	</body>
 </html>

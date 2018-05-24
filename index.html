@@ -1,75 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>DeHaan Development Home Page</title>
-	<link rel = "stylesheet" type="text/css" href = "main.css">
-</head>
-<body>
-	<div class = "stars"></div>
-	<div class = "twinkling"></div>
-	<div id = "selectedAvatar">
-		<img id = "playerAvatar" src = "./images/ufo.png"/>
-	</div>
-	<div id = "maincontainer">
-	<div id = "title">
-		<h1>DeHaan Development</h1>
-		<p>Electrical Engineer Turned Developer</p>
-	</div>
-	<div id = "charselectbox">
-		<div id = "selectboxheader">
-			<h1>Select your Avatar</h1>
+	<head>
+		<title>DeHaan Development Home Page</title>
+		<link rel = "stylesheet" type="text/css" href = "main.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class = "stars"></div>
+		<div class = "twinkling"></div>
+		<div id = "selectedAvatar">
+			<img id = "playerAvatar" src = "./images/ufo.png"/>
 		</div>
-	
-		<div id = "avatarcontainer">
-			<div class = "row">
-				<img id = "PotentialEmployer" class = "avatarimage" src = "./images/ufo.png">
-				<img id = "FreeLanceClient" class = "avatarimage" src = "./images/ufo.png">
-				<img class = "avatarimage" src = "./images/ufo.png">
-			</div>
-			<div class = "row">
-		
-					<button type = "button" class = "avatarbutton">Potential</br>Employer</button>
-
-					<button type = "button" class = "avatarbutton">Freelance Client</button>
-
-					<button type = "button" class = "avatarbutton">Friend or Family</button>
-
-			</div>
-			<div class = "row">
-				<img class = "avatarimage" src = "./images/ufo.png">
-				<img class = "avatarimage" src = "./images/ufo.png">
-				<img class = "avatarimage" src = "./images/ufo.png">
-			</div>
-			<div class = "row">
-	
-					<button type = "button" class = "avatarbutton">Random</br>Passerby</button>
-
-					<button type = "button" class = "avatarbutton">Fellow Developer</button>
+		<div id = "container-fluid">
+			<div id = "maincontainer">
+				<div id = "title">
+					<h1>DeHaan Development</h1>
+					<p>Electrical Engineer Turned Developer</p>
+				</div>
+				<div id = "charselectbox">
+					<div id = "selectboxheader">
+						<h1>Select your Avatar</h1>
+					</div>
 					
-					<button type = "button" class = "avatarbutton">UFO</button>
+					<div id = "avatarcontainer" class = "container-fluid">
+						<div class = "row">
+							<div class = "col-sm-4">
+								<div class = "avatarimage">
+								<img class = "avatar" src = "./images/ufo.png"></div>
+
+								<button type = "button" class = "avatarbutton"> Potential Employer
+								</button>
+								
+							</div>
+							<div class = "col-sm-4">
+								<div class = "avatarimage">
+								<img class = "avatar" src = "./images/ufo.png"></div>
+								<button type = "button" class = "avatarbutton">Freelance Client</button>
+							</div>
+							<div class = "col-sm-4">
+								<div class = "avatarimage">
+								<img class = "avatar" src = "./images/ufo.png"></div>
+								<button type = "button" class = "avatarbutton">Friend</button>
+							</div>
+						</div>
+						
+						<div class = "row">
+							<div class = "col-sm-4">
+								<div class = "avatarimage">
+								<img class = "avatar" src = "./images/ufo.png"></div>
+								<button type = "button" class = "avatarbutton">Random Passerby</button>
+							</div>
+							<div class = "col-sm-4">
+								<div class = "avatarimage">
+								<img class = "avatar" src = "./images/ufo.png"></div>								<button type = "button" class = "avatarbutton">Fellow Developer</button>
+							</div>
+							<div class = "col-sm-4">
+								<div class = "avatarimage">
+								<img class = "avatar" src = "./images/ufo.png"></div>
+								<button type = "button" class = "avatarbutton">UFO
+								</button>
+							</div>
+						</div>
+						
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-	<div class = "selectionItem" id = "portfolio">
-		<a href = "./portfolio/portfoliopage.html">
-		Portfolio
-		</a>
-	</div>
-	<div class = "selectionItem" id = "about">
-		about
-	</div>
-	<div class = "selectionItem" id = "contact">
-		contact
-	</div>
-	<div class = "selectionItem" id = "resume">
-		resume
-	</div>
-
-<script type = "text/javascript" src="index.js"></script>
-<script type = "text/javascript" src="main.js"></script>
-<script type = "text/javascript" src="loadedpage.js"></script>
-
-
-</body>
+		<div id = "itemsContainer">
+		<div class = "selectionItem" id = "portfolio">
+			<a href = "./portfolio/portfoliopage.html">
+				Portfolio
+			</a>
+		</div>
+		<div class = "selectionItem" id = "about">
+			about
+		</div>
+		<div class = "selectionItem" id = "contact">
+			contact
+		</div>
+		<div class = "selectionItem" id = "resume">
+			resume
+		</div>
+		</div>
+		<script type = "text/javascript" src="index.js"></script>
+		<script type = "text/javascript" src="main.js"></script>
+		<script type = "text/javascript" src="loadedpage.js"></script>
+	</body>
 </html>
