@@ -29,19 +29,19 @@
 					
 					<div id = "avatarcontainer" class = "container-fluid">
 						<div class = "row">
-							<div class = "col-sm-4 col-xs-6">
+							<div class = "col-sm-4">
 								<div class = "avatarimage">
 								<img class = "avatar" src = "./images/avatar-icons/uss_icon.png"></div>
 								<button type = "button" class = "avatarbutton"> Potential Employer
 								</button>
 								
 							</div>
-							<div class = "col-sm-4 col-xs-6">
+							<div class = "col-sm-4">
 								<div class = "avatarimage">
 								<img class = "avatar" src = "./images/avatar-icons/futurama_icon.png"></div>
 								<button type = "button" class = "avatarbutton">Freelance Client</button>
 							</div>
-							<div class = "col-sm-4 col-xs-6">
+							<div class = "col-sm-4">
 								<div class = "avatarimage">
 								<img class = "avatar" src = "./images/avatar-icons/xwing_icon.png"></div>
 								<button type = "button" class = "avatarbutton">Friend</button>
@@ -49,17 +49,17 @@
 						</div>
 						
 						<div class = "row">
-							<div class = "col-sm-4 col-xs-6">
+							<div class = "col-sm-4">
 								<div class = "avatarimage">
 								<img class = "avatar" src = "./images/avatar-icons/serenity_icon.png"></div>
 								<button type = "button" class = "avatarbutton">Random Passerby</button>
 							</div>
-							<div class = "col-sm-4 col-xs-6">
+							<div class = "col-sm-4">
 								<div class = "avatarimage">
 								<img class = "avatar" src = "./images/avatar-icons/satellite_icon.png"></div>
 								<button type = "button" class = "avatarbutton">Fellow Developer</button>
 							</div>
-							<div class = "col-sm-4 col-xs-6">
+							<div class = "col-sm-4">
 								<div class = "avatarimage">
 								<img class = "avatar" src = "./images/avatar-icons/spaceship_icon.png"></div>
 								<button type = "button" class = "avatarbutton">UFO
@@ -179,7 +179,6 @@
 						My path to development is a bit atypical. Growing up in Bozeman Montana I was never around much tech. I didn't grow up coding, nor did know anyone that did. Honestly the fact that I grew up with an interest in computers made me somewhat of an outlier amongst the other local kids, most of whom had zero interest in tech, so I tended to push it aside and never really considered coding to be a feasible option. <br><br>
 						Upon graduating from High School, I went to Gonzaga University in Spokane, WA and got an engineering degree because what else are you supposed to do when your strengths have always been Math and Science? Long story short, after getting that degree and spending 5 years working as an engineer, I decided that was not the life for me and started pursueing something else.<br><br>
 						I left my engineering job and started teaching myself coding from scratch. It was a daunting process solo learning but no doubt my engineering background has paid off because in a few short months I developed the skills to expand to working for other people. I am currently doing some work for a couple start ups, who's details I cant talk about yet, and am looking for more opportunities to expand my portfolio and my horizons. <br><br>
-						I will happily work on any project,  but my personal interests are in Health/Fitness, Gaming, and Tech especially Blockchain, Ecommerce, AI, and IOT, so if your project falls into any of those categories I would be extremely interested.<br><br>
 						If you wanna chat, go ahead and send me a messege by going to the icon in the bottom left!
 					</p>
 				</div>
@@ -188,20 +187,16 @@
 		</div>
 	</div>
 	<div id = "resume-modal" class = "modal fade" role = "dialog">
-		<div class = "modal-dialog modal-lg">
+		<div class = "modal-dialog">
 			<div class = "contact-modal modal-content">
 				<div class = "modal-header">
 					<h2>Mike DeHaan's Resume</h2>
 				</div>
 				<div class = "modal-body">
 					<h3>Applicable Skills</h3>
-					<p>-5 years of experience solving complex engineering problems as an Electrical Engineer<br>-Competent developing apps with HTML, CSS, and JavaScript.<br>-Exposure to Ruby on Rails, SQL, Python, AJAX, JSON, and React.<br>-Experienced using GIT for version control.</p>
+					<p>-5 years of experience solving complex engineering problems as an Electrical Engineer<br>Competent developing apps with HTML, CSS, and JavaScript.<br>Exposure to Ruby on Rails, SQL, Python, AJAX, JSON, and React.<br>Experienced using GIT for version control.</p>
 						
-					<h3>Work Experience</h3>
-					<p>-May 2018 to Present- Front End Development and UI/UX Design for 2 Internet based start ups. Currently cant give more details.<br>
-					-October 2016 to January 2018- Automation Engineer at Avista Utilities.- Spokane WA.<br>
-					-April 2015 to October 2016- Equipment Engineer at Boeing Co. -Auburn, WA<br>
-					-June 2013 to April 2015-Electrical Engineer at Parametrix. -Puyallup, WA.</p>
+					</p>
 				</div>
 				
 			</div>

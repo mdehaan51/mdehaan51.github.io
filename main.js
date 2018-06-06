@@ -17,7 +17,8 @@ function mainActivate(){
 	clickedId = this.textContent
 	chosenChar = document.getElementById(clickedId);
 	playerAvatarImg.src = chosenChar.src
-	mainContainer.style.animation = "fadeout 4s"
+	mainContainer.style.animation = "fadeout 4s";
+	mainContainer.style.visibility = "hidden";
 	for(let i = 0; i < 6; i++){
 		avatarButtonsList[i].disabled = true
 	};
@@ -96,5 +97,21 @@ function startUpFunction(){
 		avatarImages[i].id = avatarButtonsList[i].textContent
 	}
 }
+
+$(document).ready(function(){
+	$("#contact").click(function(){
+		$("#contact-modal").modal();
+	})
+	$("#portfolio").click(function(){
+		$("#portfolio-modal").modal();
+	})
+	$("#about").click(function(){
+		$("#about-modal").modal();
+	})
+	$("#resume").click(function(){
+		$("#resume-modal").modal();
+	})
+	});
+;
 
 window.onload = startUpFunction()
