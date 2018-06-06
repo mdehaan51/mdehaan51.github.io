@@ -107,25 +107,25 @@
 					<div class = "container-fluid">
 						<div class = "row portfolio-row">
 							<div class = col-sm-4>
-								<img class = "portfolioimage"  src = "../portfolio/twitch_leaderboard/screenshot.png">
+								<img class = "portfolioimage"  src = "./portfolio/twitch_leaderboard/screenshot.png">
 							</div>
 							<div class = col-sm-4>
-								<img class = "portfolioimage"  src = "../portfolio/skills-assessment/skill-assessment.png">
+								<img class = "portfolioimage"  src = "./portfolio/skills-assessment/skill-assessment.png">
 							</div>
 							<div class = col-sm-4>
-								<img class = "portfolioimage"  src = "../portfolio/pomodoro-clock/pomodoro-clock.png">
+								<img class = "portfolioimage"  src = "./portfolio/pomodoro-clock/pomodoro-clock.png">
 							</div>
 							
 						</div>
 						<div class = "row portfolio-row">
 							<div class = col-sm-4>
-								<img class = "portfolioimage"  src = "../portfolio/skills-assessment/skill-assessment.png">
+								<img class = "portfolioimage"  src = "./portfolio/skills-assessment/skill-assessment.png">
 							</div>
 							<div class = col-sm-4>
-								<img class = "portfolioimage"  src = "../portfolio/skills-assessment/skill-assessment.png">
+								<img class = "portfolioimage"  src = "./portfolio/skills-assessment/skill-assessment.png">
 							</div>
 							<div class = col-sm-4>
-								<img class = "portfolioimage"  src = "../portfolio/skills-assessment/skill-assessment.png">
+								<img class = "portfolioimage"  src = "./portfolio/skills-assessment/skill-assessment.png">
 							</div>
 							
 						</div>
