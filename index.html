@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DeHaan Development Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div id="selectedAvatar">
+        <img id="playerAvatar" src="./images/ufo.png" />
+    </div>
+    <div id="container-fluid">
+        <div id="maincontainer">
+            <div id="title">
+                <h1>DeHaan Development</h1>
+                <p>Electrical Engineer Turned Developer</p>
+                <p>Living in Spokane WA but working remotely</p>
+                <p>(Best Viewed on Desktop)</p>
+            </div>
+            <div id="selectboxheader">
+                    <h3>Select your Avatar</h3>
+                </div>
+            <div id="charselectbox">
+                
+                <div id="avatarcontainer" class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="avatarimage">
+                                <img class="avatar" src="./images/avatar-icons/uss_icon.png"></div>
+                            <button type="button" class="avatarbutton"> Potential Employer
+                            </button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="avatarimage">
+                                <img class="avatar" src="./images/avatar-icons/futurama_icon.png"></div>
+                            <button type="button" class="avatarbutton">Freelance Client</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="avatarimage">
+                                <img class="avatar" src="./images/avatar-icons/xwing_icon.png"></div>
+                            <button type="button" class="avatarbutton">Friend</button>
+                        </div>
+                   
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="avatarimage">
+                                <img class="avatar" src="./images/avatar-icons/serenity_icon.png"></div>
+                            <button type="button" class="avatarbutton">Random Passerby</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="avatarimage">
+                                <img class="avatar" src="./images/avatar-icons/satellite_icon.png"></div>
+                            <button type="button" class="avatarbutton">Fellow Developer</button>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class="avatarimage">
+                                <img class="avatar" src="./images/avatar-icons/spaceship_icon.png"></div>
+                            <button type="button" class="avatarbutton">UFO
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="itemsContainer">
+        <div id="selection-header">
+            <h1>Welcome</h1>
+            <h3>Choose your destination</h3>
+        </div>
+        <div class = "location-icon top left">
+        <a href = "./portfolio/portfoliopage.html">
+        <div class="selectionItem" id="portfolio">
+         </div>
+         </a>    
+        <div class="menu-signs" id="portfolio-sign">
+        </div>
+        </div>
+        <div class = "location-icon top right">
+        <div class="selectionItem" id="about">
+        </div>
+        <div class="menu-signs" id="about-sign">
+        </div>
+        </div>
+        <div class = "location-icon bottom left">
+        <div class="selectionItem" id="contact">
+        </div>
+        <div class="menu-signs" id="contact-sign">
+        </div>
+        </div>
+        <div class = "location-icon bottom right">
+        <div class="selectionItem" id="resume">
+        </div>
+        <div class="menu-signs" id="resume-sign">
+        </div>
+        </div>
+        <div class = "location-icon">
+    </div>
+    <!--<div id="portfolio-modal" class="modal fade" role=>
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Portfolio and Services</h2>
+                </div>
+                <div class="modal-body portfolio-modal-body">
+                    <div class="container-fluid">
+                        <h3> I specialize in the following services:</h3>
+                        <div class="row portfolio-row">
+                            <div class=col-sm-4>
+                                <a class="portfolio-links" data-dismiss="portfolio-modal" data-toggle="modal" href="https://dehaanrealestate.co">
+                                    <div class = "img-container">
+                                    <img class = "portfolioimage"  src = "./portfolio/Dehaanrealestate.png">
+                                    <div class = "portfolio-details">
+                                    <h5>Ideal For:</h5>
+                                    <ul>
+                                    <li>Companies looking for an online presence</li>
+                                    <li>Personal or Business Blogs</li>
+                                    <li>Basic Informational Webpages</li>
+                               </ul>
+                           </div>
+                       </div></a>
+                                    <h4>Turnkey Simple Website Design</h4>
+                        
+                            </div>
+                            <div class=col-sm-4>
+                                <a class="portfolio-links" data-dismiss="portfolio-modal" data-toggle="modal" href="">
+                                    <div class = "img-container">
+                                    <img class = "portfolioimage"  src = "./portfolio/two7.png">
+                                    <div class = "portfolio-details">
+                                    <h5>Ideal For:</h5>
+                                    <ul>
+                                        <li>Anyone who wants to sell online</li>
+                                        <li>Brick and Morter Stores Looking To Expand</li>
+                                        <li>Anyone starting a merchandise brand</li>
+                                    </ul>
+                                    </div>
+                       </div>
+                                </a>
+                                    <h4>Shopify Ecommerce Design and Management</h4>
+                               
+                                
+                            </div>
+                            <div class=col-sm-4>
+                                <a class="portfolio-links" data-dismiss="portfolio-modal" data-toggle="modal" href="https://www.blocklight.io/">
+                                    <div class = "img-container">
+                                    <img class = "portfolioimage"  src = "./portfolio/Blocklight.png">
+                                    <div class = "portfolio-details">
+                                    <h5>Ideal For:</h5>
+                                    <ul>
+                                    <li>Those who something completely unique</li>
+                                    <li>Companies who's customers are active online</li>
+                                    <li>Any company who considers their website a key part of their identity</li>
+                                    </ul>
+                                    </div>
+                            </div>
+                                </a>
+                                    <h4>Custom Interactive Webpage Design</h4>
+                               
+                                
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div id="contact-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="contact-modal modal-content">
+                <div class="modal-header">
+                    <h2>Contact Me</h2>
+                    <a class = "close-modal">X</a>
+                </div>
+                <div class="modal-body">
+                    <h2>Contact me via social media:</h2>
+                    <div class="row social-media-row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 icons">
+                            <a class="social-links" href="https://www.linkedin.com/in/michael-dehaan-20a27b63/">
+                                <img class = "social-icon" src = "./images/linkedin-logo.png">
+                                <h5>LinkedIn<h5>
+                                </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 icons">
+                            <a class="social-links" href="https://github.com/mdehaan51">
+                                <img class = "social-icon" src = "./images/github.svg">
+                                <h5>GitHub</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="contact-text">Or by emailing me at: <a href = "mailto:dehaandevelopment@gmail.com">dehaandevelopment@gmail.com</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="contact-modal modal-content">
+                <div class="modal-header">
+                    <h2>About Mike DeHaan</h2>
+                    <a class = "close-modal">X</a>
+                </div>
+                <div class="modal-body" style = " max-height: 80vh;
+    overflow-y: scroll;">
+                    <img class="headshot" src="./images/headshot.png">
+                    <h4> Hi, I'm Mike! </h4>
+                    <p> My path to development is a bit atypical. Growing up in Bozeman Montana I was never around much tech. I didn't grow up coding, nor did I know anyone that did. Growing up, having a strong interest in computers made me outlier amongst the other local kids who tended to not have much interest in tech. 
+                        <br>
+                        <br> Upon graduating from High School, I went to Gonzaga University in Spokane, WA and got an engineering degree. I wasn't necessarily interested in engineerig but what else are you supposed to do when your strengths have always been Math and Science? Long story short, after getting that degree and spending 5 years unhappily working as an engineer, I decided I needed to pursue something else.
+                        <br>
+                        <br> I left my engineering job and started teaching myself coding from scratch. It was a daunting, but no doubt my engineering background paid off as in a few short months I developed the skills to expand to working for other people. I now work remotely for a start up based out of Chicago called <a href = "https://www.blocklight.io/">Blocklight.io</a></h5>.
+                        <br>
+                        <br> In order to continue expanding my skills, I am looking for additional fun side development projects. I will happily work on any project, but my personal interests are in Health/Fitness, Gaming, and Tech especially Blockchain, Ecommerce, AI, and Real Estate, so if your project falls into any of those categories I would be extremely interested.
+                        <br>
+                        <br> 
+                        I can create completely custom web applications, simple business sites or ecommerce stores, and everything in between. To see a couple samples, check out my <a href = "./portfolio/portfoliopage.html">portfolio</a>. If you wanna chat, go ahead and send me a messege at <a href = "mailto:dehaandevelopment@gmail.com">dehaandevelopment@gmail.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="resume-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="contact-modal modal-content">
+                <div class="modal-header">
+                    <h2>Mike DeHaan's Resume</h2>
+                    <a class = "close-modal">X</a>
+                </div>
+                <div class="modal-body">
+                    <h3>Applicable Skills</h3>
+                    <p>
+                        -Front end development skills with HTML, CSS, and JavaScript, JQuery, and React.
+                        <br>-Exposure to Django, SQL, AJAX, JSON, and React.
+                        <br>-Experienced using GIT for version control
+                        <br>-Confident and competent working remotely
+                        <br>-5 years of experience solving complex engineering problems as an Electrical Engineer</p>
+                    <h3>Work Experience</h3>
+                    <p>-<b>May 2018 to Present</b>-Remote Front End Developmer for Blocklight.io. Building an ecommerce analytics platform utilizing HTML, CSS, Javascript, JQuery, and React. Assisting in back end development on Django.
+                        <br> -<b>October 2016 to January 2018</b>- Automation Engineer at Avista Utilities.- Spokane WA.
+                        <br> -<b>April 2015 to October 2016</b>- Equipment Engineer at Boeing Co. -Auburn, WA
+                        <br> -<b>June 2013 to April 2015</b>-Electrical Engineer at Parametrix. -Puyallup, WA.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade and carousel slide" id="livestockcity-lightbox">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ol class="carousel-indicators">
+                        <li data-target="#blocklight-lightbox" data-slide-to="0" class="active"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="1"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="2"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="3"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../dehaandevelopment/portfolio/Livestockcity/Livestockcity-preview.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/Livestockcity/Product-details-page.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/Livestockcity/Product-screen-1.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/Livestockcity/Product-screen-2.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/Livestockcity/Product-screen-3.png">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#livestockcity-lightbox" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#livestockcity-lightbox" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <!-- /.modal-body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <div class="modal fade and carousel slide" id="blocklight-lightbox">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ol class="carousel-indicators">
+                        <li data-target="#blocklight-lightbox" data-slide-to="0" class="active"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="1"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="2"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="3"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="4"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="5"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="6"></li>
+                        <li data-target="#blocklight-lightbox" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-2.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-3.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-4.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-5.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-6.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-7.png">
+                        </div>
+                        <div class="item">
+                            <img src="../dehaandevelopment/portfolio/blocklight/Blocklight-screenshot-8.png">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#blocklight-lightbox" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#blocklight-lightbox" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <!-- /.modal-body -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="loadedpage.js"></script>
+</body>
+
+</html>

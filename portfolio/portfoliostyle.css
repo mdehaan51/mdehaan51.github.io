@@ -1,0 +1,163 @@
+
+@keyframes spin {
+    from { transform:rotate(0deg);}
+    to { transform:rotate(360deg);}
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.blackness{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display: block;
+	background-color: black;
+}
+.blackhole{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width: 100%;
+	height:100%;
+	display:block;
+	background: url("./images/blackholebackground-trim.png") no-repeat center center fixed;
+	background-size: cover;
+	/*animation: spin 120s infinite linear;*/
+}
+#portfoliocontainer{	
+	/*display: flex;
+	justify-content: space-between;
+	flex-direction: column;*/
+	position: relative;
+	text-align: center;
+	min-height: 400px ;
+	width: 90%;
+	height: 90vh;
+	margin: 5vh auto;
+	/*border: 1px solid rgba(65, 255, 0, 0.5);*/
+	background: radial-gradient(black, transparent 100%);
+	z-index:2;
+}
+#portfoliotitle{
+	font-size: 1.5vw;
+	   font-family: Courier;
+    color: rgba(65, 255, 0);
+        position: relative;
+    top: 50px
+}
+.portfolio-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	   position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    align-items: unset !important;
+}
+.col-sm-4 a{
+	width: 100%;
+	height: auto;
+}
+.container-fluid{
+}
+.portfolio-contents{
+	position: relative;
+}
+.portfolio-item{
+	margin: 20px 0;
+	position: relative;
+	padding: 0;
+}
+.portfolio-item h3{
+	  font-family: Courier;
+    color: rgba(65, 255, 0);
+}
+.portfolioimage{
+	position: relative;
+	width: 100%;
+	/*min-height: 100%;*/
+	max-height: auto;
+	/*flex-shrink: 0;*/
+	vertical-align: middle;	
+}
+
+.info-text{    
+	position: absolute;
+    top: 0;
+    padding: 5px 10px;
+    width: 95%;
+    color: white;
+    height: 95%;
+    /* margin: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background: rgba(125,125,125,0.95);
+    margin: 5px 0;
+    overflow-y: scroll
+}
+.info-text:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+.info-text h4{
+	text-decoration: u
+}
+.info-text p{
+	margin-bottom: 5px;
+}
+.info-contents{
+	margin-top: 20px;
+}
+
+
+.description{
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	color: white;
+	font-size: 1vw;
+	 
+}
+.description p{
+	margin: -2% 1% 1% 1%;
+
+}
+.description h1{
+	vertical-align: top;
+	margin-bottom: 3%;
+	margin-top: -2%;
+
+	}
+
+a{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	overflow: hidden;
+	position: relative;
+	max-width: 30%;
+	height: auto;
+	max-height: 100%;
+	color: rgba(65, 255, 0) !important;
+	font-weight: bold;
+
+}
+video{
+	width: 100%;
+}
+
+
+

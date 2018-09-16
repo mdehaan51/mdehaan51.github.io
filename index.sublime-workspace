@@ -1,0 +1,383 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getEle",
+				"getElementsByClassName"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"saved_g",
+				"saved_game_file"
+			],
+			[
+				"remaining",
+				"remaining_guesses"
+			],
+			[
+				"gues",
+				"guessed_letter"
+			],
+			[
+				"sel",
+				"select_word"
+			],
+			[
+				"legislators_",
+				"legislators_by_zipcode"
+			],
+			[
+				"leg",
+				"legislators"
+			],
+			[
+				"champ",
+				"champAnno"
+			],
+			[
+				"row",
+				"row"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 64.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsli",
+				"JSLint"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"beay",
+				"HTMLBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 479.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mdehaan/LivestockCity/LivestockCity-PHASE-TWO/js/main.js",
+		"/home/mdehaan/LivestockCity/LivestockCity-PHASE-TWO/css/navbar.css",
+		"/home/mdehaan/LivestockCity/LivestockCity-PHASE-TWO/css/herd.css",
+		"/home/mdehaan/LivestockCity/LivestockCity-PHASE-TWO/css/global.css",
+		"/home/mdehaan/LivestockCity/LivestockCity-PHASE-TWO/herd.html",
+		"/home/mdehaan/LivestockCity/LivestockCity-PHASE-TWO/herd.css",
+		"/home/mdehaan/dehaandevelopment/portfolio/twitch_leaderboard/twitch.js",
+		"/home/mdehaan/dehaandevelopment/portfolio/twitch_leaderboard/main.css",
+		"/home/mdehaan/dehaandevelopment/portfolio/twitch_leaderboard/index.html",
+		"/home/mdehaan/dehaandevelopment/portfolio/calculator/css/style.css",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/App.js",
+		"/home/mdehaan/dehaandevelopment/portfolio/portfoliostyle.css",
+		"/home/mdehaan/dehaandevelopment/main.js",
+		"/home/mdehaan/dehaandevelopment/index.js",
+		"/home/mdehaan/dehaandevelopment/portfolio/portfoliopage.html",
+		"/home/mdehaan/dehaandevelopment/main.css",
+		"/home/mdehaan/dehaandevelopment/index.html",
+		"/home/mdehaan/dehaandevelopment/portfolio/pomodoro-clock/index.html",
+		"/home/mdehaan/dehaandevelopment/portfolio/calculator/index.html",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/user-page/sidebar/sidewidget.js",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/user-page/sidebar/sidebar.js",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/user-page/header/header.js",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/user-page/header/navbar.js",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/user-page/header/header.css",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/user-page/sidebar/sidebar.css",
+		"/home/mdehaan/xfit-pro/xfit-pro/src/index.js",
+		"/home/mdehaan/xfit-pro/xfit-pro/README.md",
+		"/home/mdehaan/.config/sublime-text-3/Packages/JSLint/JSLint.sublime-settings",
+		"/home/mdehaan/dehaandevelopment/portfolio/portfolio.js",
+		"/etc/apt/sources.list.d/mongodb-org-3.4.list",
+		"/home/mdehaan/django-apps/helloapp/howdy/views.py",
+		"/home/mdehaan/django-apps/helloapp/howdy/urls.py",
+		"/home/mdehaan/django-apps/helloapp/helloapp/urls.py",
+		"/home/mdehaan/django-apps/helloapp/helloapp/settings.py",
+		"/home/mdehaan/django-apps/helloapp/howdy/templates/about.html",
+		"/home/mdehaan/django-apps/helloapp/howdy/templates/index.html",
+		"/home/mdehaan/django-apps/helloapp/settings.py",
+		"/home/mdehaan/django-apps/mysite/testsite/settings.py",
+		"/etc/bluetooth/main.conf",
+		"/etc/hosts",
+		"/etc/hostname",
+		"/home/mdehaan/django-apps/testsite/polls/views.py",
+		"/home/mdehaan/django-apps/testsite/polls/urls.py",
+		"/home/mdehaan/django-apps/testsite/urls.py",
+		"/home/mdehaan/django-apps/testsite/testsite/settings.py",
+		"/home/mdehaan/mikeDeHaan-surefoot-application/example1.html",
+		"/home/mdehaan/mikeDeHaan-surefoot-application/example2.html",
+		"/home/mdehaan/react/src/App.js",
+		"/home/mdehaan/react/src/App.css",
+		"/etc/pulse/default.pa",
+		"/home/mdehaan/dehaandevelopment/loadedpage.js",
+		"/home/mdehaan/portolio-site/src/App.js",
+		"/home/mdehaan/dehaandevelopment/portfolio/porfoliostyle.css",
+		"/home/mdehaan/dehaandevelopment/Porfolio/porfoliostyle.css",
+		"/home/mdehaan/dehaandevelopment/portfoliopage.html",
+		"/home/mdehaan/message-app/public/index.html",
+		"/home/mdehaan/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/mdehaan/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/mdehaan/dehaandevelopment/reacttest.html",
+		"/home/mdehaan/message-app/src/index.js",
+		"/home/mdehaan/message-app/src/confix.eslintrc",
+		"/home/mdehaan/Documents/freecodecamp-projects/tic-tac-toe/main.js",
+		"/home/mdehaan/Documents/freecodecamp-projects/tic-tac-toe/main.css",
+		"/home/mdehaan/Documents/freecodecamp-projects/tic-tac-toe/index.html",
+		"/home/mdehaan/.cache/.fr-GjEQkk/css/style.css",
+		"/home/mdehaan/.cache/.fr-g7LKGj/index.html",
+		"/home/mdehaan/dehaandevelopment/twitch_leaderboard/index.html",
+		"/home/mdehaan/dehaandevelopment/twitch_leaderboard/main.css",
+		"/home/mdehaan/dehaandevelopment/twitch_leaderboard/twitch.js",
+		"/home/mdehaan/odin_project/rb_practice/fibonacci.rb",
+		"/home/mdehaan/odin_project/rb_practice/merge_sort.rb",
+		"/home/mdehaan/odin_project/rb_practice/event_manager/form_letter.html",
+		"/home/mdehaan/odin_project/rb_practice/event_manager/5desk.txt",
+		"/home/mdehaan/odin_project/rb_practice/event_manager/lib/event_manager.rb",
+		"/home/mdehaan/odin_project/rb_practice/hangman/hangman.rb",
+		"/home/mdehaan/odin_project/rb_practice/odin_practice/bubble_sort.rb",
+		"/home/mdehaan/14four/skills-assessment/index.html",
+		"/home/mdehaan/odin_project/rb_practice/odin_practice/caesar_cipher.rb",
+		"/home/mdehaan/skills-assessment/index.html",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/config/routes.rb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/views/articles/index.html.erb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/controllers/application_controller.rb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/controllers/articles_controller.rb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/views/articles/new.html.erb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/views/articles/show.html.erb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/helpers/application_helper.rb",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/app/assets/stylesheets/application.css",
+		"/home/mdehaan/odin_project/rb_practice/Odin_Rails_Project/blogger/db/migrate/20180420181123_create_articles.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/04_pig_latin/pig_latin.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/06_timer/timer.rb",
+		"/usr/bin/rails",
+		"/home/mdehaan/odin_project/rb_practice/environment/hello_app/config/routes.rb",
+		"/home/mdehaan/odin_project/rb_practice/environment/hello_app/Gemfile",
+		"/home/mdehaan/odin_project/rb_practice/environment/hello_app/app/controllers/application_controller.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/02_calculator/calculator.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/03_simon_says/simon_says.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/01_temperature/temperature.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/01_temperature/temperature_spec.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/00_hello/hello.rb",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/00_hello/index.html",
+		"/home/mdehaan/odin_project/rb_practice/learn_ruby/00_hello/hello_spec.rb",
+		"/home/mdehaan/odin_project/js_practice/Etch-N-Sketch/index.html",
+		"/home/mdehaan/odin_project/rb_practice/problem1.rb",
+		"/home/mdehaan/odin_project/rb_practice/calc.rb",
+		"/home/mdehaan/odin_project/js_practice/Rock-Paper-Scissors/index.html",
+		"/home/mdehaan/odin_project/js_practice/domPractice.html",
+		"/home/mdehaan/skills-assessment/Problems Encountered in Skill Assessment.txt",
+		"/home/mdehaan/odin_project/js_practice/Rock-Paper-Scissors/README.md",
+		"/home/mdehaan/odin_project/google-homepage/README.md",
+		"/home/mdehaan/odin_project/google-homepage/index.html",
+		"/home/mdehaan/odin_project/js_practice/lesson3.html",
+		"/home/mdehaan/odin_project/git_test/README.md",
+		"/home/mdehaan/railsbridge/test_app/config/routes.rb",
+		"/home/mdehaan/railsbridge/test_app/Gemfile"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 124.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"computerPlay"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
