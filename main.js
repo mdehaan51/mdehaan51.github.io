@@ -1,9 +1,9 @@
-const avatarButtonsList = document.getElementsByClassName("avatarbutton");
+/*const avatarButtonsList = document.getElementsByClassName("avatarbutton");
 const mainContainer = document.getElementById("maincontainer");
 const avatarImages = document.getElementsByClassName("avatarimage");
 const playerAvatarImg = document.getElementById("playerAvatar");
 const selectedAvatar = document.getElementById("selectedAvatar");
-let pageCounter = 0
+let pageCounter = 0*/
 
 
 
@@ -26,7 +26,7 @@ function mainActivate(){
 		selectionItem[i].style.animation = "fadein 3s both"
 	};*/
 	document.getElementById("itemsContainer").style.animation = "fadein 3s both"
-	selectedAvatar.style.display = "fadein 3s both";
+	selectedAvatar.style.animation = "fadein 3s both";
 
 	let avatarCenter = [selectedAvatar.offsetLeft + selectedAvatar.offsetWidth/2, selectedAvatar.offsetTop + selectedAvatar.offsetHeight/2];
 
