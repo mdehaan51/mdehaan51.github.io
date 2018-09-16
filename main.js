@@ -100,7 +100,7 @@ function startUpFunction(){
 
 $(document).ready(function(){
 	$("#contact").click(function(){
-		$("#contact-modal").modal();
+		$("#contact-modal").modal({backdrop: true});
 	})
 	$("#portfolio").click(function(){
 		$("#portfolio-modal").modal();
@@ -113,5 +113,9 @@ $(document).ready(function(){
 	})
 	});
 ;
+
+$(".close-modal").on("click", function(){
+	$(".modal").modal('hide')
+})
 
 window.onload = startUpFunction()

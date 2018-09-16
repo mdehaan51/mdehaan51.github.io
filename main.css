@@ -1,7 +1,23 @@
+html{
+	height: 100%;
+}
+
 body{
 	font-family: Courier;
 	color: rgba(65, 255, 0);
+	width: 100%;
+	padding-bottom: 20px;
+	overflow-x: hidden;
+	position: absolute;
+	top: 0;
 
+}
+a{
+	color: rgba(65, 255, 0);
+	font-weight: bold;
+}
+a:hover{
+	color: white;
 }
 .stars, .twinkling{
 	position: absolute;
@@ -10,8 +26,8 @@ body{
 	right:0;
 	bottom:0;
 	width: 100%;
-	height:100%;
-	display:block;
+
+	min-height: 100vh;
 }
 /*Styling to create Twinkling Stars Background. Credit to*/
 .stars{
@@ -118,18 +134,17 @@ body{
 	margin-top: 50%;
 	margin: 3%  auto;
 
-	min-width: 480px;
 	max-width: 900px;
 	z-index: 2;
 }
 #charselectbox{
 
 	text-align: center;
-	min-width: 480px;
+
 	max-width: 900px;
 	min-height: 400px ;
 	width: 60%;
-	height: 50vh;
+	height: 500px;
 	margin: auto;
 
 	z-index:2;
@@ -137,7 +152,7 @@ body{
 
 }
 #selectboxheader{
-
+	text-align: center;
 }
 #avatarcontainer{
 	width: 100%;
@@ -150,9 +165,7 @@ body{
 	align-items: center;
 	height: 50%;
 }
-.col-sm-4{
-	height: 100%;
-}
+
 
 
 .avatarimage{
@@ -173,15 +186,15 @@ body{
 	background: linear-gradient(to bottom right, black, darkgrey);
 	box-shadow: 1px 1px 3px 1px darkgrey;
 	color: rgba(65, 255, 0);
-	width: 65%;
-	height: 30%;
+	width: 110px;
+	height: 50px;
 	outline: none;
 
 }
 .avatarbutton:hover{
-	height: 35%;
 	cursor: pointer;
 	outline: none;
+	font-weight: bold;
 
 
 /*Container for after Avatar Select*/	
@@ -209,19 +222,18 @@ body{
     left: 0;
     right: 0;
     margin: auto;
-    width: 400px;
+
     height: 100px;
     text-align: center;
     font-family: Courier;
 	color: rgba(65, 255, 0);
 }
 #portfolio{
-	position: absolute;
+
 	height: 100px;
 	width: 100px;
-	top: 10%;
-	left: 10%;
-	background-color: blue;
+
+
 	z-index: 5;
 	background: url("./images/img-icons/portfolio_top.png");
 	background-size: cover;
@@ -230,9 +242,8 @@ body{
 
 }
 #portfolio-sign{
-	position: absolute;
-	top: 21%;
-	left: 9%;
+
+
 	background: url("./images/img-icons/portfolio_bottom.png");
 	background-size: cover;
 	transform: rotate(10deg);
@@ -240,11 +251,9 @@ body{
 }
 
 #about{
-	position: absolute;
-	height: 125px;
-	width: 125px;
-	top: 10%;
-	right: 10%;
+
+	height: 100px;
+	width: 100px;
 	background: url("./images/img-icons/about_top.png");
 	background-size: cover;
 	z-index: 5;
@@ -252,18 +261,15 @@ body{
 
 }
 #about-sign{
-	position: absolute;
-	top: 25%;
-	right: 11%;
+
 	background: url("./images/img-icons/about_bottom.png");
 	background-size: cover;
 }
 #contact{
-	position: absolute;
+
 	height: 100px;
 	width: 100px;
-	bottom: 20%;
-	left: 10%;
+
 	background: url("./images/img-icons/contact_top.png");
 	background-size: cover;
 	z-index: 5;
@@ -271,29 +277,24 @@ body{
 	animation: myOrbit 15s infinite linear;
 }
 #contact-sign{
-	position: absolute;
-	bottom: 12%;
-	left: 9%;
+
 	background: url("./images/img-icons/contact_bottom.png");
 	background-size: cover;
 	transform: rotate(7deg);
 
 }
 #resume{
-	position: absolute;
+
 	height: 100px;
 	width: 150px;
-	bottom: 18%;
-	right: 10%;
+
 	background: url("./images/img-icons/resume_top.png");
 	background-size: cover;
 	z-index: 5;
 	animation: sway 15s infinite;
 }
 #resume-sign{
-	position: absolute;
-	bottom: 12%;
-	right: 11%;
+
 	background: url("./images/img-icons/resume_bottom.png");
 	background-size: cover;
 	transform: rotate(-2deg);
@@ -302,22 +303,24 @@ body{
 
 .backbutton{
 	position: absolute;
-	top: 6%;
-	left: 6%;
-	width: 10%;
-	height: 3%;
-	font-size: 2vh;
+	top: 20px;
+	left: 20px;
+	width: 110px;
+    height: 35px;
+    font-size: 24px;
 	border-radius: 15px;
 	background: linear-gradient(to bottom right, black, darkgrey);
 	box-shadow: 1px 1px 3px 1px darkgrey;
 	color: rgba(65, 255, 0);
 	z-index: 10;
+	font-weight: normal;
 }
 
 .backbutton:hover{
-	height: 3.5%;
 	cursor: pointer;
 	outline: none;
+	font-weight: bold;
+	
 }
 #contact-modal{
 	font-family: Courier;
@@ -327,15 +330,54 @@ body{
 	width: 100%;
 
 }
+.social-icon{
+	width: 50px;
+}
+.social-media-row{
+	display: flex;
+	justify-content: space-around;
+}
+.icons{
+	text-align: center;
+}
+.social-links{
+	color: rgba(65, 255, 0);
+	text-align:center;
+}
+#contact-modal h2{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px
+}
+.contact-text{
+	text-align: center;
+	line-height: 50px;
+}
+.headshot{
+	float: right;
+	padding: 50px 0px 50px 20px;
+}
+.location-icon{
+	position: absolute;
+}
+.top{
+	top: 10%;
+}
+.left{
+	left: 10%;
+}
+.right{
+	right:10%;
+}
+.bottom{
+	bottom: 10%;
+}
 
 .modal {
 text-align: center;
 padding: 0!important;
 }
-.modal-lg{
-	width: 80%;
-	height: 80%;
-}
+
 .portfolio-modal-body{
 	
 }
@@ -345,16 +387,16 @@ padding: 0!important;
 	margin-bottom: 2.5%;
 }
 
-.modal:before {
+
+/*.modal:before {
 content: '';
 display: inline-block;
 height: 100%;
 vertical-align: middle;
 margin-right: -4px;
-}
+}*/
 
 .modal-dialog {
-display: inline-block;
 text-align: left;
 vertical-align: middle;
 }
@@ -377,6 +419,9 @@ vertical-align: middle;
 .contact-modal-content{
 	background-image: url("./images/img-icons/contact_bottom.png");
 }
+.carousel{
+	position: absolute;
+}
 textarea{
 	resize: none;
 	height: 200px;
@@ -386,20 +431,190 @@ textarea{
 	max-width: 100%;
 }
 
-@media only screen and (max-width: 768px){
+.img-container{
+	position:relative;
 
+}
+.img-container:hover .portfolio-details{
+	opacity:1;
+}
+.portfolio-details{
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  color: rgba(65,255,0);
+  background-color: rgba(0,0,0,0.9);
+}
+.portolio-details li{
+	text-align: left;
+}
+
+.portfolio-links h5{
+	text-align: center;
+}
+.modal-backdrop{
+	background-color: unset;
+	position: unset;
+}
+.close-modal{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.close-modal:hover{
+	cursor: pointer;
+}
+@media(max-width: 600px){
+	#charselectbox{
+		min-width: unset;
+		width: 90%;
+	}
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.headshot {
+    float: right;
+    padding: 50px 0px 0px 2px;
+    margin-right: -10px;
+	}
+	#title{
+		width: unset;
+	}
+}
+
+/*////////////////////////////////////////////////////////////////////////////////
+/////////////////PORTFOLIO PAGE///////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////*/
+
+#portfolio-container{	
+	position: absolute;
+	text-align: center;
+	min-height: 400px ;
+	width: 100%;
+    margin-top: 40px;
+    height: 100%;
+	background: radial-gradient(black, transparent 100%);
+	z-index:2;
+}
+.portfolio-page{
+	height: 1300px;
+	max-height: 135vh;
+}
+#portfolio-title{
+	font-family: Courier;
+    color: rgba(65, 255, 0);
+    padding-top: 50px;
+}
+#portfolio-title p{
+	width: 60%;
+	margin: auto;
+}
+.portfolio-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
 	
-	.avatarbutton{
-		width: 40%;
-		height: 30%;
-		font-size: 1.5vh;
-	}
-	.avatarimage{
-		margin-left: 1%;
-		margin-right: 1%;
-	}
-	.modal:before{
-		height: 0;
+}
+
+.container-fluid{
+}
+.portfolio-contents{
+	position: relative;
+}
+.portfolio-item{
+	margin: 40px 0;
+	position: relative;
+	padding: 0;
+}
+.portfolio-item h3{
+	  font-family: Courier;
+    color: rgba(65, 255, 0);
+}
+.portfolioimage{
+	position: relative;
+	width: 100%;
+	/*min-height: 100%;*/
+	max-height: auto;
+	/*flex-shrink: 0;*/
+	vertical-align: middle;	
+}
+
+.info-text{    
+	position: absolute;
+    top: 0;
+    padding: 5px 10px;
+    width: 95%;
+    color: white;
+    height: 95%;
+    /* margin: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    background: rgba(125,125,125,0.95);
+    margin: 5px 0;
+    overflow-y: scroll;
+    -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.info-text:hover{
+	opacity: 1.0;
+	animation: fadein 0.5s both;
+}
+
+.info-text h4{
+	text-decoration: u
+}
+.info-text p{
+	margin-bottom: 5px;
+}
+.info-contents{
+	margin-top: 20px;
+}
+.project-header{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.description{
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	color: white;
+	font-size: 1vw;
+	 
+}
+.description p{
+	margin: -2% 1% 1% 1%;
+
+}
+.description h1{
+	vertical-align: top;
+	margin-bottom: 3%;
+	margin-top: -2%;
+
 	}
 
+video{
+	width: 100%;
+}
+
+@media(max-width: 992px){
+	#portfolio-title p{
+		width: 90%;
+	}
+	.portfolio-row{
+		padding: 0 30px;
+	}
 }
