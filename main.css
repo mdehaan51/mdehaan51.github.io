@@ -1,5 +1,6 @@
 html{
-	height: 100%;
+
+	margin:0;
 }
 
 body{
@@ -11,6 +12,8 @@ body{
 	position: absolute;
 	top: 0;
 
+	margin: 0;
+
 }
 a{
 	color: rgba(65, 255, 0);
@@ -20,14 +23,14 @@ a:hover{
 	color: white;
 }
 .stars, .twinkling{
-	position: absolute;
+	position: fixed;
 	top:0;
 	left:0;
 	right:0;
 	bottom:0;
-	width: 100%;
-
-	min-height: 100vh;
+	/*width: 100%;
+	min-height: 100%;*/
+	overflow: auto;
 }
 /*Styling to create Twinkling Stars Background. Credit to*/
 .stars{
@@ -429,6 +432,8 @@ textarea{
 
 .portfolioimage{
 	max-width: 100%;
+	border: 1px solid rgba(65, 255, 0);
+	border-radius: 20px;
 }
 
 .img-container{
@@ -528,6 +533,7 @@ position: absolute;
 }
 .portfolio-contents{
 	position: relative;
+	margin: 20px 0 0 0;
 }
 .portfolio-item{
 	margin: 40px 0;
