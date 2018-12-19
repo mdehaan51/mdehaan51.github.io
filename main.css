@@ -1,60 +1,39 @@
 html{
-<<<<<<< HEAD
-
 	margin:0;
-=======
-	height: 100%;
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
 }
 
 body{
 	font-family: Courier;
-<<<<<<< HEAD
+
 	color: rgba(65, 255, 0);
-=======
-	color: rgba(65, 255, 0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
+
 	width: 100%;
 	padding-bottom: 20px;
 	overflow-x: hidden;
 	position: absolute;
 	top: 0;
 
-<<<<<<< HEAD
 	margin: 0;
 
 }
 a{
 	color: rgba(65, 255, 0);
-=======
 }
-a{
-	color: rgba(65, 255, 0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
-	font-weight: bold;
-}
+
 a:hover{
 	color: white;
 }
 .stars, .twinkling{
-<<<<<<< HEAD
+
 	position: fixed;
-=======
-	position: absolute;
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 	top:0;
 	left:0;
 	right:0;
 	bottom:0;
-<<<<<<< HEAD
-	/*width: 100%;
-	min-height: 100%;*/
 	overflow: auto;
-=======
-	width: 100%;
 
-	min-height: 100vh;
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
 }
 /*Styling to create Twinkling Stars Background. Credit to*/
 .stars{
@@ -142,11 +121,9 @@ a:hover{
 
 #container-fluid{
 	font-family: Courier;
-<<<<<<< HEAD
+
 	color: rgba(65, 255, 0);
-=======
-	color: rgba(65, 255, 0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 
 }
 #maincontainer{
@@ -216,11 +193,9 @@ a:hover{
 	border-radius: 15px;
 	background: linear-gradient(to bottom right, black, darkgrey);
 	box-shadow: 1px 1px 3px 1px darkgrey;
-<<<<<<< HEAD
+
 	color: rgba(65, 255, 0);
-=======
-	color: rgba(65, 255, 0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 	width: 110px;
 	height: 50px;
 	outline: none;
@@ -261,11 +236,9 @@ a:hover{
     height: 100px;
     text-align: center;
     font-family: Courier;
-<<<<<<< HEAD
+
 	color: rgba(65, 255, 0);
-=======
-	color: rgba(65, 255, 0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 }
 #portfolio{
 
@@ -350,11 +323,9 @@ a:hover{
 	border-radius: 15px;
 	background: linear-gradient(to bottom right, black, darkgrey);
 	box-shadow: 1px 1px 3px 1px darkgrey;
-<<<<<<< HEAD
+
 	color: rgba(65, 255, 0);
-=======
-	color: rgba(65, 255, 0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 	z-index: 10;
 	font-weight: normal;
 }
@@ -367,11 +338,9 @@ a:hover{
 }
 #contact-modal{
 	font-family: Courier;
-<<<<<<< HEAD
+
 	color: rgba(65,255,0);
-=======
-	color: rgba(65,255,0, 1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 	background-color: rgba(0,0,0,0.6);
 	height: 100%;
 	width: 100%;
@@ -388,11 +357,9 @@ a:hover{
 	text-align: center;
 }
 .social-links{
-<<<<<<< HEAD
+
 	color: rgba(65, 255, 0);
-=======
-	color: rgba(65, 255, 0,1.0);
->>>>>>> 191b8210d312be0f9926ba9bf07005af2266edf4
+
 	text-align:center;
 }
 #contact-modal h2{
